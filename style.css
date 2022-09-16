@@ -1,3 +1,33 @@
 body {
     background-color: #faf5f0;
 }
+
+#customnav {
+    background-color: #d6ccc2;
+    flex-shrink: 1;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbutton {
+    justify-content: space-between;
+}
+
+#navbutton:hover {
+    background-color: black;
+    color: white;
+    border-radius: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+#search {
+    width: 6rem;
+    -webkit-transition: width 0.2s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#search:focus {
+    width: 100%;
+}

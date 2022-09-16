@@ -15,24 +15,54 @@
 
 <body>
 
-    <div class="container justify-content-center">
-        <nav class="nav nav-tabs flex-column flex-sm-row sticky-top" id="nav" role="tablist"
-            style="background-color: #d6ccc2;">
-
-            <a class="navbar-brand " href="index.html">
+    <nav class="navbar navbar-expand-lg flex-md-column flex-sm-row sticky-top" id="customnav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/logo.png" alt="Restaurant" width="40" height="41">
             </a>
+            <a class="navbar-brand text-uppercase fs-5 fw-bold" href="index.html">Restaurant</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <a class="flex-sm-fill text-sm-center nav-link" id="home" aria-current="page"
-                href="index.html">Kezdőképernyő</a>
-            <a class="flex-sm-fill text-sm-center nav-link" id="profile" href="#">Rólunk</a>
-            <a class="flex-sm-fill text-sm-center nav-link active" id="menu" href="lasagne.html">Étlap</a>
-            <a class="flex-sm-fill text-sm-center nav-link" id="contact" href="#">Kapcsolat</a>
-            <a class="flex-sm-fill text-sm-center nav-link" id="gallery" href="#">Galéria</a>
-            <a class="flex-sm-fill text-sm-center nav-link" id="cart" href="#">Kosár</a>
-            <a class="flex-sm-fill text-sm-center nav-link" id="account" href="#">Fiók</a>
-        </nav>
-    </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse align-items-center justify-content-between"
+                    id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto p-2 align-items-center justify-content-center">
+                        <li class="nav-item">
+                            <a class="flex-sm-fill text-sm-start nav-link" id="navbutton" aria-current="page"
+                                href="index.html">Kezdőképernyő</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="flex-sm-fill text-sm-start nav-link" id="navbutton" href="#">Rólunk</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="flex-sm-fill text-sm-start nav-link active" id="navbutton"
+                                href="lasagne.html">Étlap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="flex-sm-fill text-sm-start nav-link" id="navbutton" href="#">Kapcsolat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="flex-sm-fill text-sm-start nav-link" id="navbutton" href="#">Galéria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="flex-sm-fill text-sm-start nav-link" id="navbutton" href="#">Kosár</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="flex-sm-fill text-sm-start nav-link" id="navbutton" href="#">Fiók</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex " role="search">
+                        <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Keresés"
+                            id="search">
+                        <button class="btn btn-outline-dark" type="submit">Keresés</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <h1>A legcuccosabb lasagne</h1>
 
@@ -81,12 +111,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script>
 
 </body>
