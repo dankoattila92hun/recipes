@@ -16,12 +16,12 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg flex-md-column flex-sm-row sticky-top" id="customnav">
+    <nav class="navbar navbar-expand-lg p-1 mb-3 mb-md-2 flex-md-column flex-sm-row sticky-top" id="customnav">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" alt="Restaurant" width="40" height="41">
+                <img src="img/logo.png" class="rounded" alt="Restaurant" width="40" height="41">
             </a>
-            <a class="navbar-brand text-uppercase fs-5 fw-bold" href="index.html">Restaurant</a>
+            <a class="navbar-brand text-uppercase fs-5 fw-bold" href="index.html">Étterem</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -65,61 +65,125 @@
     </nav>
 
 
-
-    <h1 class="text-center text-uppercase fs-2 fw-bold text-md-start">Étterem</h1>
+    <div class="card col-12 blurb mb-4 mb-md-2 p-2 d-flex justify-content-center align-items-center text-center mb-3">
+        <img class="card-img img-fluid mx-auto d-block" src="img/brick-wall-gcb0eaabec_1920.jpg" alt="bg-banner">
+        <div class="card-img-overlay">
+            <div class="container" id="bg-banner">
+                <img src="img/logo.png" alt="Restaurant" class="img-fluid"
+                    style="border-radius: 50%; height: 100%; width: 30%;">
+                <div
+                    class="card-body d-flex p-2 text-light text-uppercase fs-2 text-sm-center fw-bold justify-content-center align-items-center align-content-center">
+                    <h1 class="banner-h1">
+                        Étterem
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid p-1 text-center">
-        <div class="row d-flex justify-content-center align-items-start">
+        <div class="row d-flex justify-content-center align-items-start align-items-stretch">
             <div class="col-md-6 blurb mb-5 mb-md-2">
-                <img src="https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062_960_720.jpg"
-                    class="img-fluid rounded mx-auto d-block" alt="pizza" id="img" style="align-self: flex-start">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis fugiat tempora perspiciatis maxime ea
-                    nam eos quae possimus quisquam et provident debitis neque voluptatem at, sapiente commodi temporibus
-                    sequi eaque?
-                    Exercitationem dicta recusandae minus illum eaque velit nesciunt, iusto, a ut eligendi minima labore
-                    placeat tempore, adipisci sit deserunt repudiandae! Sequi minima ullam culpa similique odio magni
-                    consequuntur nesciunt sapiente.
-                    Numquam sapiente possimus sit sint sequi quae. Vel culpa officia blanditiis debitis eos!
-                    Perspiciatis suscipit, omnis illum fuga deserunt iure fugiat consequuntur hic distinctio nulla. Ex
-                    commodi corporis porro. Ipsa!</p>
+                <div class="card h-100" id="card-content">
+                    <img src="https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062_960_720.jpg"
+                        class="img-fluid rounded-top mx-auto d-block" alt="pizza" id="img"
+                        style="align-self: flex-start; width: 100%">
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis fugiat
+                            tempora perspiciatis
+                            maxime ea
+                            nam eos quae possimus quisquam et provident debitis neque voluptatem at, sapiente commodi
+                            temporibus
+                            sequi eaque?
+                            Exercitationem dicta recusandae minus illum eaque velit nesciunt, iusto, a ut eligendi
+                            minima labore
+                            placeat tempore, adipisci sit deserunt repudiandae! Sequi minima ullam culpa similique odio
+                            magni
+                            consequuntur nesciunt sapiente.
+                            Numquam sapiente possimus sit sint sequi quae. Vel culpa officia blanditiis debitis eos!
+                            Perspiciatis suscipit, omnis illum fuga deserunt iure fugiat consequuntur hic distinctio
+                            nulla. Ex
+                            commodi corporis porro. Ipsa!</p>
+                        <button type="button" class="btn btn-outline-primary">Primary</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 blurb mb-5 mb-md-2">
-                <img src="https://cdn.pixabay.com/photo/2016/05/25/10/43/hamburger-1414423_960_720.jpg"
-                    class="img-fluid rounded mx-auto d-block" alt="hamburger" id="img" style="align-self: flex-start">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, quibusdam illum facilis est nobis
-                    dolorum laborum assumenda necessitatibus quos quas rerum minus illo possimus consequatur iste
-                    explicabo sint voluptatem cum!
-                    Dolores expedita eos voluptate, voluptatum odio ipsam iusto natus aperiam voluptas quae quaerat odit
-                    voluptates facilis quibusdam suscipit officia perspiciatis voluptatem ullam nemo est. Voluptate
-                    deleniti recusandae omnis iste dolorem.</p>
+            <div class="col-md-6 blurb mb-5 mb-md-2 align-items-stretch">
+                <div class="card h-100" id="card-content">
+                    <img src="https://cdn.pixabay.com/photo/2016/05/25/10/43/hamburger-1414423_960_720.jpg"
+                        class="img-fluid rounded-top mx-auto d-block" alt="hamburger" id="img"
+                        style="align-self: flex-start; width: 100%">
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text mb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel,
+                            quibusdam illum facilis est
+                            nobis
+                            dolorum laborum assumenda necessitatibus quos quas rerum minus illo possimus consequatur
+                            iste
+                            explicabo sint voluptatem cum!
+                            Dolores expedita eos voluptate, voluptatum odio ipsam iusto natus aperiam voluptas quae
+                            quaerat odit
+                            voluptates facilis quibusdam suscipit officia perspiciatis voluptatem ullam nemo est.
+                            Voluptate
+                            deleniti recusandae omnis iste dolorem.</p>
+                        <button type="button" class="btn btn-outline-primary">Primary</button>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="container-fluid p-1 text-center">
-            <div class="row d-flex justify-content-center align-items-start">
-                <div class="col-md-6 blurb mb-5 mb-md-2">
+
+
+            <div class="col-md-6 blurb mb-5 mb-md-2 align-items-stretch">
+                <div class="card h-100" id="card-content">
                     <img src="https://cdn.pixabay.com/photo/2017/10/16/08/59/nem-2856543_960_720.jpg"
-                        class="img-fluid rounded mx-auto d-block" alt="asian" id="img" style="align-self: flex-start">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusantium architecto quia
-                        perferendis quasi cumque debitis praesentium quam a. Tempore perferendis harum, vero debitis
-                        dignissimos laudantium dolores necessitatibus ratione atque.</p>
+                        class="img-fluid rounded-top mx-auto d-block" alt="asian" id="img"
+                        style="align-self: flex-start; width: 100%">
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                            accusantium
+                            architecto
+                            quia
+                            perferendis quasi cumque debitis praesentium quam a. Tempore perferendis
+                            harum, vero
+                            debitis
+                            dignissimos laudantium dolores necessitatibus ratione atque.</p>
+                        <button type="button" class="btn btn-outline-primary">Primary</button>
+                    </div>
                 </div>
-                <div class="col-md-6 blurb mb-5 mb-md-2">
+            </div>
+            <div class="col-md-6 blurb mb-5 mb-md-2 align-items-stretch">
+                <div class="card h-100" id="card-content">
                     <img src="https://cdn.pixabay.com/photo/2021/03/22/10/17/gyro-6114093_960_720.jpg"
-                        class="img-fluid rounded mx-auto d-block" alt="gyros" id="img" style="align-self: flex-start">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit deserunt recusandae doloremque!
-                        Eum cumque sunt eligendi commodi. Quis, laudantium ab alias ullam, nam earum in, nobis
-                        consequuntur quisquam eveniet eius.
-                        Accusamus natus sed quidem mollitia cum ducimus veniam tempore? Accusantium facilis veritatis
-                        vero veniam et, quis eveniet consectetur officia a cum ipsa magni inventore commodi quibusdam
-                        porro, officiis, animi adipisci!</p>
+                        class="img-fluid rounded-top mx-auto d-block" alt="gyros" id="img"
+                        style="align-self: flex-start; width: 100%">
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
+                            deserunt
+                            recusandae
+                            doloremque!
+                            Eum cumque sunt eligendi commodi. Quis, laudantium ab alias ullam, nam earum
+                            in,
+                            nobis
+                            consequuntur quisquam eveniet eius.
+                            Accusamus natus sed quidem mollitia cum ducimus veniam tempore? Accusantium
+                            facilis
+                            veritatis
+                            vero veniam et, quis eveniet consectetur officia a cum ipsa magni inventore
+                            commodi
+                            quibusdam
+                            porro, officiis, animi adipisci!</p>
+                        <button type="button" class="btn btn-outline-primary">Primary</button>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-            crossorigin="anonymous"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 
 </body>
 
